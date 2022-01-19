@@ -1,9 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 header{
+    width: 100%;
+    height: 46.875rem;
+
     border: 1px solid red;
 
-    
+    .logo__img{
+        background-color: black;
+    }
 }
 
-.logo__img{
-    background-color: black;
-}
+
+
+
+
+
+
