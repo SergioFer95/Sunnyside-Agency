@@ -38,23 +38,25 @@ header{
 
 
     .contactBtn{
-        width: 20px;
+        width: 149px;
         color: black;
-        background-color: white;
+        background-color: #DDFFFF;
+        border: 0.5px solid hsl(167, 40%, 24%);
         border-radius: 66px;
-        padding: 33px;
-
-        font-size: 10px;
+        padding: 16px;
+        font-family: Fraunces;
+        font-size: 17px;
     }
     
 
-
+    
 
 
 
 
     .liveMotive{
         color: white;
+        font-family: Fraunces;
     }
     
     // .arrowIcon{
