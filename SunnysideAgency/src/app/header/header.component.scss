@@ -1,17 +1,65 @@
 *{
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
 }
 
 header{
     width: 100%;
     height: 46.875rem;
 
-    border: 1px solid red;
+    background-image:url(../../assets/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
 
-    .logo__img{
-        background-color: black;
+    display: flex;
+
+    .logo{
+        width: 10.625rem;
+        height: 2.313rem;
+        border: 1px solid black;
+
+        .logo__img{
+            width: 100%;
+        }
     }
+
+    .menu{
+
+        .navbar{
+
+            .navbar__anchor{
+                color: #DDFFFF;
+            }
+        }
+    }
+
+
+    .contactBtn{
+        width: 20px;
+        color: black;
+        background-color: white;
+        border-radius: 66px;
+        padding: 33px;
+
+        font-size: 10px;
+    }
+    
+
+
+
+
+
+
+    .liveMotive{
+        color: white;
+    }
+    
+    // .arrowIcon{
+    //     position: absolute;
+    // }
 }
 
 
