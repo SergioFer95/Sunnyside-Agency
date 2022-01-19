@@ -52,16 +52,24 @@ header{
     
 
 
-
-
     .liveMotive{
-        color: white;
-        font-family: Fraunces;
-    }
+
+        
+        .text{
+            color: white;
+            font-size: 43px;
+            letter-spacing: 12px;
+            font-family: Fraunces;;
     
-    // .arrowIcon{
-    //     position: absolute;
-    // }
+            text-align: center;
+        }
+        
+        // .arrowIcon{
+        //     position: absolute;
+        // }
+    }
+
+    
 }
 
 
