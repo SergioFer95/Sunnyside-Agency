@@ -1,6 +1,4 @@
 *{
-    margin: 0px;
-    padding: 0px;
     text-decoration: none;
 }
 
@@ -13,60 +11,86 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:scroll;
+}
 
+.layout{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
 
     .logo{
         width: 10.625rem;
         height: 2.313rem;
-        border: 1px solid black;
+
+        flex-grow: 2;
+        order: 1;
+        flex-basis: 40%;
 
         .logo__img{
-            width: 100%;
+            width: 30%;
+            margin-top: 38px;
+            margin-left: 38px;
         }
     }
 
     .menu{
 
+        display: flex;
+        order: 2;
+        flex-grow: 2;
+        flex-basis: 50%;
+        justify-content: flex-end;
+        align-items: center;
+
+        margin-top: 25px;
+
         .navbar{
+            text-align: center;
 
             .navbar__anchor{
                 color: #DDFFFF;
+                font-family: Barlow;
+                padding: 27px;
             }
         }
     }
 
 
     .contactBtn{
-        width: 149px;
+        width: 9.313rem;
+        height: 3.5rem;
         color: black;
         background-color: #DDFFFF;
         border: 0.5px solid hsl(167, 40%, 24%);
         border-radius: 66px;
         padding: 16px;
+        margin-right: 47px;
+
         font-family: Fraunces;
         font-size: 17px;
+        text-align: center;
     }
-    
-
-    
-
 
     .liveMotive{
+        // width: 300px;
+        margin-top: 122px;
 
-        
+        text-align: center;
+
+        flex-basis: 100%;
+        flex-grow: 6;
+        order: 3;
+        flex-basis: 6;
+
         .text{
             color: white;
             font-size: 43px;
             letter-spacing: 12px;
-            font-family: Fraunces;;
-    
-            text-align: center;
+            font-family: Fraunces;
         }
-        
-        // .arrowIcon{
-        //     position: absolute;
-        // }
     }
 
     
